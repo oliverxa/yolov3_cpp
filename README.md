@@ -1,7 +1,11 @@
 # yolov3_cpp
+
+# download yolov3 model
 cd models 
 
 wget https://pjreddie.com/media/files/yolov3.weights 
+
+# build cmake for cpp
 
 mkdir build
 
@@ -11,4 +15,9 @@ cmake ..
 
 make
 
-./yolo-app ../imgs/person.jpg
+# run video
+mkdir videos
+
+add your videos (in videos path)
+
+./yolo-app ../videos
