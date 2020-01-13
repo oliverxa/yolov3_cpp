@@ -1,5 +1,6 @@
 # yolov3_cpp
-cd models
+cd models 
+
 wget https://pjreddie.com/media/files/yolov3.weights 
 
 mkdir build
