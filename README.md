@@ -20,4 +20,6 @@ mkdir videos
 
 add your videos (in videos path)
 
+in build path run :
+
 ./yolo-app ../videos
